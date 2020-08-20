@@ -42,7 +42,7 @@ inky_display.set_border(inky_display.BLACK)
 
 # Uncomment the following if you want to rotate the display 180 degrees
 # inky_display.h_flip = True
-# inky_display.v_flip = True
+inky_display.v_flip = True
 
 
 def create_mask(source, mask=(inky_display.WHITE, inky_display.BLACK, inky_display.RED)):
