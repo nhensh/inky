@@ -41,7 +41,7 @@ else:
 inky_display.set_border(inky_display.BLACK)
 
 # Uncomment the following if you want to rotate the display 180 degrees
-inky_display.h_flip = True
+inky_display.h_flip = false
 # inky_display.v_flip = True
 
 
